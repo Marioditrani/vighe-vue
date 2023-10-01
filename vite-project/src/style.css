@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2 {
+  color: #7189AD;
+  font-size: 70px;
+}
+
+p {
+  font-size: 40px;
+}
+
+a {
+  color: #7189AD;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+@media (max-width:1200px) {
+  #menu {
+    gap: 50px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  #right-pag1 {
+    width: 500px;
+
+  }
+}
+
+@media (max-width:1100px) {
+  #menu {
+    gap: 30px;
+  }
+
+  #cards-top {
+    flex-wrap: wrap;
+    row-gap: 50px;
+  }
+
+  #card-center {
+    width: 100%;
+  }
+
+  #left-pag1 h2 {
+    width: 40%;
+    flex-wrap: wrap;
+
+  }
+
+  #left-pag1 p {
+    width: 40%;
+    padding-top: 50px;
+  }
+
+  #cards-bottom {
+    width: 70%;
+  }
+}
+
+@media (max-width: 950px) {
+  #menu {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 850px) {
+  #menu {
+    gap: 10px;
+  }
+}
+
+@media (max-width:810px) {
+  #menu {
+    gap: 5px;
+  }
+
+  #left-top-pag2 p {
+    font-size: 20px;
+  }
+
+  #right-top-pag2 {
+    width: 200px;
+    height: 200px;
+  }
+
+  #bottom-left-pag2 {
+    width: 100%;
+  }
+
+  #bottom-right-pag2 {
+    margin: auto;
+  }
+}
+
+@media (max-width: 770px) {
+  #menu {
+    position: absolute;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    background-color: #6e88ad;
+    width: 100%;
+    height: 236px;
+    height: 0vh;
+    overflow: hidden;
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
+  }
+
+  .menu div {
+    overflow: hidden;
+  }
+
+  #menu div {
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+  }
+
+  #menu a {
+    color: white;
+  }
+
+  #menu button {
+    display: none;
+  }
+
+  .menu1050 {
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    height: 100vh;
+    border-bottom: 1px solid #444;
+
+  }
+
+  .menu-open #menu {
+    height: 236px;
+    padding: 3%;
+  }
+
+  .mod-notte {
+    display: none;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  #left-pag1 p {
+    width: 40%;
+    padding-top: 0px;
+  }
+
+  #skill {
+    width: 100%;
+  }
+
+  #bottom-right-pag2 {
+    margin-top: 200px;
+  }
+
+  #cards-top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #cards-bottom {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
+  #pag4 {
+    margin-top: 800px;
+  }
+
+  .img3 {
+    margin-top: 10000px;
+  }
+}
+
+.ancor-pag1,
+.ancor-pag2,
+.ancor-pag3 {
+  height: 80px;
+
+}
